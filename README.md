@@ -1,2 +1,2 @@
-# Image Recoloring
-Image Recoloring Based on Object Color Distributions.
+# Image Recoloring Based on Object Color Distributions
+
