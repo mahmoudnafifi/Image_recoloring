@@ -57,7 +57,7 @@ disp('----------------------------------------------');
 disp('Part 5/5 (setup MatConvNet and RefineNet)...');
 disp('----------------------------------------------');
 
-disp('Now, you have to install MatConvNet and RefineNet in SS_CNN directory. Be sure that Git is already installed.');
+disp('Now, we will install MatConvNet and RefineNet in SS_CNN directory. Be sure that Git is already installed.');
 
 
 disp('This part requires Visual Studio 2015 or greater for Windows OS or GCC 4.8 and LibJPEG for Linux OS. For more information, please visit: http://www.vlfeat.org/matconvnet/install/');
