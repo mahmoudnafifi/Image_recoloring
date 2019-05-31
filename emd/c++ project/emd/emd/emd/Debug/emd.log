@@ -1,0 +1,14 @@
+﻿  emd.cpp
+e:\work\prof. michael\object class\code\code\source code\emd\c++ project\emd\emd.h(20): warning C4005: 'INFINITY': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(78): note: see previous definition of 'INFINITY'
+e:\work\prof. michael\object class\code\code\source code\emd\c++ project\emd\emd.cpp(159): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\work\prof. michael\object class\code\code\source code\emd\c++ project\emd\emd.cpp(243): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\work\prof. michael\object class\code\code\source code\emd\c++ project\emd\emd.cpp(330): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\work\prof. michael\object class\code\code\source code\emd\c++ project\emd\emd.cpp(429): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+e:\work\prof. michael\object class\code\code\source code\emd\c++ project\emd\emd.cpp(1034): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+e:\work\prof. michael\object class\code\code\source code\emd\c++ project\emd\emd.cpp(1047): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+e:\work\prof. michael\object class\code\code\source code\emd\c++ project\emd\emd.cpp(1047): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\work\prof. michael\object class\code\code\source code\emd\c++ project\emd\emd.cpp(1048): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+e:\work\prof. michael\object class\code\code\source code\emd\c++ project\emd\emd.cpp(1048): warning C4305: 'initializing': truncation from 'double' to 'float'
+  emd.vcxproj -> E:\Work\Prof. Michael\object class\code\code\source code\emd\c++ project\emd\emd\Debug\emd.exe
+  emd.vcxproj -> E:\Work\Prof. Michael\object class\code\code\source code\emd\c++ project\emd\emd\Debug\emd.pdb (Full PDB)

@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "emd", "emd\emd.vcxproj", "{F2D90844-1D4C-4671-AC03-67C1CD496419}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{32136031-B397-486C-9A2F-4FBF6F30B456}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2D90844-1D4C-4671-AC03-67C1CD496419}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F2D90844-1D4C-4671-AC03-67C1CD496419}.Debug|Win32.Build.0 = Debug|Win32
+		{F2D90844-1D4C-4671-AC03-67C1CD496419}.Release|Win32.ActiveCfg = Release|Win32
+		{F2D90844-1D4C-4671-AC03-67C1CD496419}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
