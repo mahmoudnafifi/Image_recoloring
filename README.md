@@ -14,3 +14,5 @@
 5. The recolored images will be in 'recolored_images' directory and the generated semantic masks will be in 'output_masks' directory. 
 6. Run demo_GUI for our interactive GUI version (in process -- will be available soon)
 
+### Publication:
+Mahmoud Afifi, Brian Price, Scott Cohen, and Michael S. Brown, Image Recoloring Based on Object Color Distributions, Eurographics 2019 - Short Papers, 2019
