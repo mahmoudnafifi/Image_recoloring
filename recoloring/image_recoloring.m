@@ -28,7 +28,7 @@ function out_images = image_recoloring( I, M, bestCandidates)
 
 clustNum=20; %number of clusters in the DoD
 
-if bestCandidates>clustNum %error if you require more than the current number of clusters
+if bestCandidates>clustNum %error if the required number is more than the current number of clusters
     error('Number of candidates should be less than %d\n',clustNum);
 end
 
@@ -82,7 +82,7 @@ for ind = 1 : N %for each cluster do
         BW=(M==obj); %compute a BW mask for interesting pixels of that object
         ratio  = sum(BW(:))/(size(I,1)*size(I,2)); %ratio to the total number of pixels in the input image
         temp = I_reshaped(BW,:);
-        if mod(size(temp,1),2)~=0 %if the number of pixels is not an even number, add a new pixel of mean channels to make it even number
+        if mod(size(temp,1),2)~=0 %if the number of pixels is not an even number, add a new pixel of mean channels to make it an even number
             temp(end+1,1)=mean(temp(:,1));
             temp(end+1,2)=mean(temp(:,2));
             temp(end+1,3)=mean(temp(:,3));
@@ -91,7 +91,7 @@ for ind = 1 : N %for each cluster do
         img_g=reshape(temp(:,2),2,[]);
         img_b=reshape(temp(:,3),2,[]);
         img = cat(3,img_r,img_g,img_b); %concat them to generate a dummy image
-        if ind == 1 %if it is the first cluster, compute the color palette for
+        if ind == 1 %if it is the first cluster, compute the color palette for the current object (i) in the input image
         [centers,labels]=extract_theme(img,K,sigma);  %extract its color palette
         area=zeros(K,1);
         %normalize the area
