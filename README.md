@@ -40,7 +40,7 @@ Be sure that you select MinGW for C++ Mex file compiling. To change it, use the 
 ```
         mex -setup C++
 ```
-6. Download [Scene Parsing dataset](http://sceneparsing.csail.mit.edu/) (we only use the training set which includes training images/semantic masks). The dataset should be located in the following path `../ADEChallengeData2016` (assuming you are located in the root directory of our source code). For example, we should be able to access the first training image `ADE_train_00000001.jpg` and its semantic mask by writing the following Matlab code:
+6. Download [Scene Parsing dataset](http://sceneparsing.csail.mit.edu/) (we only use the training set which includes training images/semantic masks). The dataset should be located in the following path `../ADEChallengeData2016` (assuming you are located in the root directory of our source code). For example, we should be able to read the first training image `ADE_train_00000001.jpg` and its semantic mask by writing the following Matlab code:
 ```
         I = imread(fullfile('..','ADEChallengeData2016','images','training','ADE_train_00000001.jpg'));
         M = imread(fullfile('..','ADEChallengeData2016','annotations','training','ADE_train_00000001.png'));
