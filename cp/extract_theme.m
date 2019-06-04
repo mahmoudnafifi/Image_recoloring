@@ -3,6 +3,8 @@ function [C,labels] = extract_theme(I, k, sigma)
 %K: number of palettes
 %Sigma: is sigma!
 % increase one more to remove dark palette color
+%This code is written by NGUYEN Ho Man Rang ~ http://www.comp.nus.edu.sg/~nguyenho/
+
 k = k + 1;
 bin = 16;
 Ibin = floor(255*I/bin);
