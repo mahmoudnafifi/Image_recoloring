@@ -10,9 +10,9 @@
 1. Run install_p1
 2. Run install_p2
 3. Go to the `demo` directory and copy your input images to `input_images` directory
-4. Run demo_recoloring
+4. Run `demo_recoloring`
 5. The recolored images will be in the `recolored_images` directory and the generated semantic masks will be in `output_masks` directory. 
-6. Run demo_GUI for our interactive GUI version (in process - will be available soon)
+6. Run `demo_GUI` for our interactive GUI version.
 
 
 ### Manual installation
@@ -45,10 +45,20 @@ Be sure that you select MinGW for C++ Mex file compiling. To change it, use the 
         I = imread(fullfile('..','ADEChallengeData2016','images','training','ADE_train_00000001.jpg'));
         M = imread(fullfile('..','ADEChallengeData2016','annotations','training','ADE_train_00000001.png'));
 ```
-7. Download our pre-computed data that include the distribution of object color distributions (DoD) from [here](https://ln.sync.com/dl/d47b76bb0/vshj9d85-gny78wxi-3k2m53mp-943h84k6). Make sure that you locate the DoD data in the following path `../data/DoD_data` (assuming you are located in the root directory of our source code). For example, we should be able to load the first cluster data by writing the following Matlab code:
+7. Download our pre-computed data that include the distribution of object color distributions (DoD) from [here](https://ln.sync.com/dl/d47b76bb0/vshj9d85-gny78wxi-3k2m53mp-943h84k6) (also, is available [here](https://drive.google.com/open?id=1zaHi7zDZXiQBwxfedFLM7nuHEHMZ0g-p)). Make sure that you locate the DoD data in the following path `../data/DoD_data` (assuming you are located in the root directory of our source code). For example, we should be able to load the first cluster data by writing the following Matlab code:
 ```
         load(fullfile('..','data','DoD_data','airplane_clust_1.mat'));
 ```
+
+### GUI
+![GUI Figure](https://drive.google.com/uc?export=view&id=1g7PCa2tT41TXiktsLosDzRmJR3wIbnyG)
+Try our GUI version which includes the following features:
+1. <b>Semantic mask adjustment:</b> You can adjust the semantic mask in an interactive way (semi-automated and manual adjustments are provided). 
+2. <b> Selecting primary object:</b> You can select the primary object to get different results. 
+
+To test it, run `demo_GUI` from the `demo` directory. 
+
+
 
 ### Publication
 Mahmoud Afifi, Brian Price, Scott Cohen, and Michael S. Brown, Image Recoloring Based on Object Color Distributions, Eurographics 2019 - Short Papers, 2019
