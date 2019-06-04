@@ -56,7 +56,7 @@ Try our GUI version which includes the following features:
 1. <b>Semantic mask adjustment:</b> You can adjust the semantic mask in an interactive way (semi-automated and manual adjustments are provided). 
 2. <b> Selecting primary object:</b> You can select the primary object to get different results. 
 
-To test it, run `demo_GUI` in the `demo` directory. 
+To test it, run `demo_GUI` from the `demo` directory. 
 
 
 
