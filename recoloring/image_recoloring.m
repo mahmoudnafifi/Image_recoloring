@@ -19,12 +19,17 @@
 %%
 
 
-function out_images = image_recoloring( I, M, bestCandidates)
+function out_images = image_recoloring( I, M, bestCandidates, bestObject)
 %% 
 % Input:
 % - I: input image
 % - M: semantic mask
 % - bestCandidates: number of recolored images (should be <=20)
+% - bestObject: primary object name (optional)
+
+if nargin == 3
+    bestObject = [];
+end
 
 clustNum=20; %number of clusters in the DoD
 
@@ -35,8 +40,11 @@ end
 Bin = 32; %histogram bins
 
 I=im2double(I);
-
-[bestObject,best,objects]=pickBestCandidate(M); %get the primary object (as explained in the paper)
+if isempty(bestObject)
+    [bestObject,best,objects]=pickBestCandidate(M); %get the primary object (as explained in the paper)
+else
+    [~,best,objects]=pickBestCandidate(M); %get all existing objects and use the selected primary object.
+end
 
 all_objs = [best,objects];
 
