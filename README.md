@@ -5,6 +5,13 @@
 
 ![main figure](http://cvil.eecs.yorku.ca/projects/public_html/image_recoloring/img/figure.jpg)
 
+### Abstract
+<p align="justify"> We present a method to perform automatic image recoloring based on the distribution of colors associated with objects present in an image. For example, when recoloring an image containing a sky object, our method incorporates the observation that objects of class 'sky' have a color distribution with three dominant modes for blue (daytime), yellow/red (dusk/dawn), and dark (nighttime). Our work leverages recent deep-learning methods that can perform reasonably accurate object-level segmentation. By using the images in datasets used to train deep-learning object segmentation methods, we are able to model the color distribution of each object class in the dataset. Given a new input image and its associated semantic segmentation (i.e., object mask), we perform color transfer to map the input image color histogram to a set of target color histograms that were constructed based on the learned color distribution of the objects in the image. We show that our framework is able to produce compelling color variations that are often more interesting and unique than results produced by existing methods.</p>
+
+
+<p align="center">
+<img src="https://drive.google.com/uc?export=view&id=1y2_9kn3CWndqm472jqqfZnMImr6seZPQ" style="width:80%" title="Click for the larger version." align="middle"/>
+</p>
 
 ### Quick start
 1. Run install_p1
