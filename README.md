@@ -10,7 +10,7 @@
 
 
 <p align="center">
-<img src="https://drive.google.com/uc?export=view&id=1y2_9kn3CWndqm472jqqfZnMImr6seZPQ" style="width:80%" title="Click for the larger version." align="middle"/>
+<img src="https://drive.google.com/uc?export=view&id=1y2_9kn3CWndqm472jqqfZnMImr6seZPQ" width="650" title="Click for the larger version." align="middle"/>
 </p>
 
 ### Quick start
