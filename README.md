@@ -68,4 +68,19 @@ To test it, run `demo_GUI` from the `demo` directory.
 
 
 ### Publication
+If you use this code, please cite our paper:
+
+
 Mahmoud Afifi, Brian Price, Scott Cohen, and Michael S. Brown, Image Recoloring Based on Object Color Distributions, Eurographics 2019 - Short Papers, 2019
+
+```
+@inproceedings {afifi2019imageRecoloring,
+booktitle = {Eurographics 2019 - Short Papers},
+title = {{Image Recoloring Based on Object Color Distributions}},
+author = {Afifi, Mahmoud and Price, Brian and Cohen, Scott and Brown, Michael S.},
+year = {2019},
+publisher = {The Eurographics Association},
+ISSN = {1017-4656},
+DOI = {10.2312/egs.20191008}
+}
+```
