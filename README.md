@@ -14,6 +14,7 @@
 </p>
 
 ### Quick start
+[![View Image recoloring without a target image on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/71702-image-recoloring-without-a-target-image)
 1. Run install_p1
 2. Run install_p2
 3. Go to the `demo` directory and copy your input images to `input_images` directory
@@ -85,4 +86,4 @@ DOI = {10.2312/egs.20191008}
 }
 ```
 
-[![View Image recoloring without a target image on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/71702-image-recoloring-without-a-target-image)
+
