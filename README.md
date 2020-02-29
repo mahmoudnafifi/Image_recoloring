@@ -48,12 +48,12 @@ Be sure that you select MinGW for C++ Mex file compiling. To change it, use the 
 ```
         mex -setup C++
 ```
-6. Download [Scene Parsing dataset](http://sceneparsing.csail.mit.edu/) (we only use the training set which includes training images/semantic masks). The dataset should be located in the following path `../ADEChallengeData2016` (assuming you are located in the root directory of our source code). For example, we should be able to read the first training image `ADE_train_00000001.jpg` and its semantic mask by writing the following Matlab code:
+6. Download [Scene Parsing dataset](http://sceneparsing.csail.mit.edu/) (we only use the training set which includes training images/semantic masks). The dataset should be located in the following path `../ADEChallengeData2016` (assuming you are located in the root directory of our source code). For example, you should be able to read the first training image `ADE_train_00000001.jpg` and its semantic mask by writing the following Matlab code:
 ```
         I = imread(fullfile('..','ADEChallengeData2016','images','training','ADE_train_00000001.jpg'));
         M = imread(fullfile('..','ADEChallengeData2016','annotations','training','ADE_train_00000001.png'));
 ```
-7. Download our pre-computed data that include the distribution of object color distributions (DoD) from [here](https://ln.sync.com/dl/d47b76bb0/vshj9d85-gny78wxi-3k2m53mp-943h84k6) (also, is available [here](https://drive.google.com/open?id=1zaHi7zDZXiQBwxfedFLM7nuHEHMZ0g-p)). Make sure that you locate the DoD data in the following path `../data/DoD_data` (assuming you are located in the root directory of our source code). For example, we should be able to load the first cluster data by writing the following Matlab code:
+7. Download our pre-computed data that includes the distribution of object color distributions (DoD) from [here](https://ln.sync.com/dl/d47b76bb0/vshj9d85-gny78wxi-3k2m53mp-943h84k6) (also, is available [here](https://drive.google.com/open?id=1zaHi7zDZXiQBwxfedFLM7nuHEHMZ0g-p)). Make sure that you locate the DoD data in the following path `../data/DoD_data` (assuming you are located in the root directory of our source code). For example, you should be able to load the first cluster data by writing the following Matlab code:
 ```
         load(fullfile('..','data','DoD_data','airplane_clust_1.mat'));
 ```
