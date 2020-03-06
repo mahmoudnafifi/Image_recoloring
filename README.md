@@ -59,7 +59,7 @@ Be sure that you select MinGW for C++ Mex file compiling. To change it, use the 
 ```
 
 ### GUI
-![GUI Figure](https://drive.google.com/uc?export=view&id=1g7PCa2tT41TXiktsLosDzRmJR3wIbnyG)
+![GUI_DoD](https://user-images.githubusercontent.com/37669469/76104729-dbc95680-5fa1-11ea-9bb7-f5ab5df375d4.png)
 Try our GUI version which includes the following features:
 1. <b>Semantic mask adjustment:</b> You can adjust the semantic mask in an interactive way (semi-automated and manual adjustments are provided). 
 2. <b> Selecting primary object:</b> You can select the primary object to get different results. 
