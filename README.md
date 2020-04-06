@@ -86,4 +86,4 @@ DOI = {10.2312/egs.20191008}
 
 
 ### Related Projects
-[Deep White-Balance Editing, CVPR 2020](https://arxiv.org/pdf/2004.01354.pdf)
+- [Deep White-Balance Editing](https://arxiv.org/pdf/2004.01354.pdf): A multi-task deep learning model for post-capture white-balance editing (CVPR 2020).
