@@ -8,8 +8,10 @@
 ### Abstract
 <p align="justify"> We present a method to perform automatic image recoloring based on the distribution of colors associated with objects present in an image. For example, when recoloring an image containing a sky object, our method incorporates the observation that objects of class 'sky' have a color distribution with three dominant modes for blue (daytime), yellow/red (dusk/dawn), and dark (nighttime). Our work leverages recent deep-learning methods that can perform reasonably accurate object-level segmentation. By using the images in datasets used to train deep-learning object segmentation methods, we are able to model the color distribution of each object class in the dataset. Given a new input image and its associated semantic segmentation (i.e., object mask), we perform color transfer to map the input image color histogram to a set of target color histograms that were constructed based on the learned color distribution of the objects in the image. We show that our framework is able to produce compelling color variations that are often more interesting and unique than results produced by existing methods.</p>
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/37669469/76104873-17fcb700-5fa2-11ea-8507-87dcc6387723.gif">
+</p>
 
-![howitworks](https://user-images.githubusercontent.com/37669469/76104873-17fcb700-5fa2-11ea-8507-87dcc6387723.gif)
 
 ### Quick start
 [![View Image recoloring without a target image on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/71702-image-recoloring-without-a-target-image)
