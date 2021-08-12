@@ -87,3 +87,7 @@ DOI = {10.2312/egs.20191008}
 ```
 
 
+### Related Research Projects
+- [HistoGAN](https://github.com/mahmoudnafifi/HistoGAN): A method to control colors of GAN and real images. Image auto recoloring is one of its applications.
+- [CAMS](https://github.com/mahmoudnafifi/color-aware-style-transfer): A color-aware multi-style transfer method.
+
